@@ -34,7 +34,7 @@ author:
     organization: Juniper Networks, Inc
     email: hkotni@juniper.net
  -
-    fullname: Andrew Stone (Editor)
+    fullname: Andrew Stone
     organization: Nokia
     email: andrew.stone@nokia.com
 
