@@ -12,7 +12,7 @@ Expires: 30 August 2025                                Ciena Corporation
                                                                    Nokia
                                                                 H. Kotni
                                                    Juniper Networks, Inc
-                                                          A. S. (Editor)
+                                                                A. Stone
                                                                    Nokia
                                                         26 February 2025
 
@@ -128,7 +128,9 @@ Table of Contents
 
    ERO: Explicit Route Object is the path of the LSP encoded into a PCEP
    object.  To represent an empty ERO object, i.e., without any
-   subobjects, we use the notation "ERO={}".  To represent an ERO
+   subobjects, we use the notation "ERO={}".  To represent an ERO object
+   containing some given sequence of subobjects, we use the notation
+   "ERO={A}".
 
 4.  PCEP LSP Database
 
@@ -503,6 +505,6 @@ Authors' Addresses
    Email: hkotni@juniper.net
 
 
-   Andrew Stone (Editor)
+   Andrew Stone
    Nokia
    Email: andrew.stone@nokia.com
