@@ -12,6 +12,8 @@ Expires: 30 August 2025                                Ciena Corporation
                                                                    Nokia
                                                                 H. Kotni
                                                    Juniper Networks, Inc
+                                                          A. S. (Editor)
+                                                                   Nokia
                                                         26 February 2025
 
 
@@ -466,10 +468,6 @@ Contributors
    Huawei Technologies
    Email: dhruv.ietf@gmail.com
 
-   Andrew Stone
-   Nokia
-   Email: andrew.stone@nokia.com
-
    Samuel Sidor
    Cisco Systems
    Email: ssidor@cisco.com
@@ -503,3 +501,8 @@ Authors' Addresses
    Hari Kotni
    Juniper Networks, Inc
    Email: hkotni@juniper.net
+
+
+   Andrew Stone (Editor)
+   Nokia
+   Email: andrew.stone@nokia.com
