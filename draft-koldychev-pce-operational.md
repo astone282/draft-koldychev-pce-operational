@@ -3,7 +3,7 @@ title: "PCEP Operational Clarification"
 abbrev: "PCEP-OPERATIONAL"
 category: info
 
-docname: draft-koldychev-pce-operational-08
+docname: draft-koldychev-pce-operational-latest
 submissiontype: IETF
 number:
 date: {DATE}
