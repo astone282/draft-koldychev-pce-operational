@@ -33,6 +33,10 @@ author:
     fullname: Hari Kotni
     organization: Juniper Networks, Inc
     email: hkotni@juniper.net
+-
+    fullname: Andrew Stone (Editor)
+    organization: Nokia
+    email: andrew.stone@nokia.com
 
 normative:
     RFC2119:
@@ -445,10 +449,6 @@ comments.
 Dhruv Dhody
 Huawei Technologies
 Email: dhruv.ietf@gmail.com
-
-Andrew Stone
-Nokia
-Email: andrew.stone@nokia.com
 
 Samuel Sidor
 Cisco Systems
