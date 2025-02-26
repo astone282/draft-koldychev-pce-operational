@@ -3,7 +3,7 @@ title: "PCEP Operational Clarification"
 abbrev: "PCEP-OPERATIONAL"
 category: info
 
-docname: draft-koldychev-pce-operational-latest
+docname: draft-koldychev-pce-operational-08
 submissiontype: IETF
 number:
 date: {DATE}
@@ -104,6 +104,8 @@ association type.
 ERO:  Explicit Route Object is the path of the LSP encoded into a
 PCEP object.  To represent an empty ERO object, i.e., without any
 subobjects, we use the notation "ERO={}".  To represent an ERO
+object containing some given sequence of subobjects, we use the
+notation "ERO={A}".
 
 # PCEP LSP Database
 
