@@ -15,8 +15,8 @@ workgroup: "PCE Working Group"
 author:
  -
     fullname: Mike Koldychev
-    organization: Cisco Systems, Inc.
-    email: mkoldych@cisco.com
+    organization: Ciena Corporation
+    email: mkoldych@proton.me
  -
     fullname: Siva Sivabalan
     organization: Ciena Corporation
@@ -423,6 +423,31 @@ do not have an explicit flag for removal.  This simply ensures that
 it is possible to remove a constraint without using an explicit
 removal flag.
 
+
+# Overloaded PCE
+
+[RFC5440] defines the concept of an Overloaded PCE and explains how
+a PCE may signal to a PCC that it is congested, instructing that
+"no requests should be sent to that PCE until the overload state is cleared."
+
+In the case of an overloaded PCE, this document clarifies that it is RECOMMENDED
+a PCC send a PcReq to a backup PCE instead if the primary PCE is overloaded.
+
+[RFC8231] builds upon [RFC5440] by introducing the concept of a
+Stateful PCE, which allows delegation of LSP control to a single PCE.
+However, it does not address the case of an overloaded PCE. According
+to [RFC8231], a PCE maintains delegation until it is revoked by the PCC
+or returned back to PCC by the PCE. The PCC may revoke delegation and re-assign
+it to another PCE.
+
+As a result, a PCE in an overload state still retains LSP delegation.
+For PCC-initiated LSPs, the PCC MAY revoke delegation from the overloaded
+PCE and maintain delegation for itself or delegate it to another PCE. For
+PCE-initiated LSPs, since the PCC cannot revoke delegation as per [RFC8281],
+the overloaded PCE MAY return the delegation to the PCC.
+
+As it is not prohibited in [RFC8231], a PCC MAY continue to send PcRpt
+messages to a PCE in overload state.
 
 # Security Considerations
 
