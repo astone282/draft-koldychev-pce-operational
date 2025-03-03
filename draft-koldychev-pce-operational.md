@@ -446,8 +446,8 @@ PCE and maintain delegation for itself or delegate it to another PCE. For
 PCE-initiated LSPs, since the PCC cannot revoke delegation as per [RFC8281],
 the overloaded PCE MAY return the delegation to the PCC.
 
-As it is not prohibited in [RFC8231], a PCC MAY continue to send PcRpt
-messages to a PCE in overload state.
+This document clarifies that a PCC MUST continue to send PcRpt messages to a PCE in overload state otherwise
+the LSP-DB on PCE may go out of sync.
 
 # Security Considerations
 
